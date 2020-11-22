@@ -1,4 +1,4 @@
-package ex1.test;
+package ex1.tests;
 
 import ex1.src.WGraph_DS;
 import ex1.src.weighted_graph;

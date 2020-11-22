@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c49cf47-a5b9-453f-9738-ba80ac1d63fd" name="Default Changelist" comment="" />
+    <list default="true" id="5c49cf47-a5b9-453f-9738-ba80ac1d63fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex1/ex1/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex1/ex1/test/WGraph_AlgoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex1/ex1/test/WGraph_DSTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/tests/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/test/WGraph_AlgoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/tests/WGraph_AlgoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/test/WGraph_DSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/tests/WGraph_DSTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +27,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1kMzlQigURrfg1wKbjnmC3HB05b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,6 +47,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -41,6 +56,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -54,7 +70,20 @@
       <recent name="C:\Users\Dor Yaakobi\IdeaProjects\Ex1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WGraph_AlgoTest">
+  <component name="RunManager" selected="Application.Structure">
+    <configuration name="Structure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex1.Structure" />
+      <module name="Ex1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WGraph_AlgoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ex1" />
       <extension name="coverage">
@@ -63,8 +92,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex1.test" />
-      <option name="MAIN_CLASS_NAME" value="ex1.test.WGraph_AlgoTest" />
+      <option name="PACKAGE_NAME" value="ex1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ex1.tests.WGraph_AlgoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,8 +107,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex1.test" />
-      <option name="MAIN_CLASS_NAME" value="ex1.test.WGraph_AlgoTest" />
+      <option name="PACKAGE_NAME" value="ex1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ex1.tests.WGraph_AlgoTest" />
       <option name="METHOD_NAME" value="isConnected" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -94,8 +123,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex1.test" />
-      <option name="MAIN_CLASS_NAME" value="ex1.test.WGraph_AlgoTest" />
+      <option name="PACKAGE_NAME" value="ex1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ex1.tests.WGraph_AlgoTest" />
       <option name="METHOD_NAME" value="shortestPath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -110,36 +139,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ex1.test" />
-      <option name="MAIN_CLASS_NAME" value="ex1.test.WGraph_DSTest" />
+      <option name="PACKAGE_NAME" value="ex1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ex1.tests.WGraph_DSTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WGraph_DSTest.addNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ex1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex1.test" />
-      <option name="MAIN_CLASS_NAME" value="ex1.test.WGraph_DSTest" />
-      <option name="METHOD_NAME" value="addNode" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Structure" />
         <item itemvalue="JUnit.WGraph_AlgoTest" />
         <item itemvalue="JUnit.WGraph_AlgoTest.isConnected" />
         <item itemvalue="JUnit.WGraph_DSTest" />
         <item itemvalue="JUnit.WGraph_AlgoTest.shortestPath" />
-        <item itemvalue="JUnit.WGraph_DSTest.addNode" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +181,11 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/ex1/ArielU_OOP" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" width="814" height="732" key="#Intentions" timestamp="1605711235019">
       <screen x="0" y="0" width="1536" height="824" />
@@ -189,26 +207,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605712633060" />
+    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1606037973758">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606037973758" />
     <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1605529910501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605529910501" />
-    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1605979365262">
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1605981184699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605979365262" />
-    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1605979365262">
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605981184699" />
+    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1605981184699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605979365262" />
-    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1605979365262">
+    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605981184699" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1605981184699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605979365262" />
-    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1605979365262">
+    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605981184699" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1605981184699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605979365262" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605981184699" />
     <state width="1493" height="101" key="GridCell.Tab.1.bottom" timestamp="1605718821192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -225,10 +247,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="101" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605718821192" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1605981234165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605981234165" />
     <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605543810155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1605543810155" />
+    <state x="578" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606037889576">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606037889576" />
     <state x="533" y="114" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605543914605">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -238,22 +268,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex1/test/WGraph_AlgoTest.java</url>
+          <url>file://$PROJECT_DIR$/src/ex1/tests/WGraph_AlgoTest.java</url>
           <line>60</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex1/test/WGraph_AlgoTest.java</url>
+          <url>file://$PROJECT_DIR$/src/ex1/tests/WGraph_AlgoTest.java</url>
           <line>33</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ex1/src/WGraph_Algo.java</url>
-          <line>203</line>
-          <properties class="ex1.WGraph_Algo" method="getPath">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
