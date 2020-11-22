@@ -273,37 +273,3 @@ class WGraph_DSTest {
     }
 
 }
-
-//
-//    @Test
-//    void hasEdge() {
-//
-//    }
-//
-//    @Test
-//    void getEdge() {
-//    }
-
-//    public static weighted_graph myGraph(){
-//        weighted_graph g = new WGraph_DS();
-//        for (int i = 0; i <10 ; i++) {
-//            g.addNode(i);
-//        }
-//        g.connect(1,2,1);
-//        g.connect(2,4,1);
-//        g.connect(3,5,2);
-//        g.connect(4,5,1);
-//        g.connect(4,6,1);
-//        g.connect(6,7,2);
-//        g.connect(6,7,1);
-//        g.connect(6,8,1);
-//        g.connect(8,9,1);
-//        g.connect(0,9,1);
-//
-////        g.removeNode(6);
-////        g.addNode(6);
-
-//        return g;
-
-
-//Ds_test
