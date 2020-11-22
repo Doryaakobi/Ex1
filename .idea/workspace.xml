@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5c49cf47-a5b9-453f-9738-ba80ac1d63fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex1/ex1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex1/ex1/tests/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex1/ex1/tests/WGraph_AlgoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex1/ex1/tests/WGraph_AlgoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex1/ex1/tests/WGraph_DSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex1/ex1/tests/WGraph_DSTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/tests/WGraph_AlgoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/tests/WGraph_AlgoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex1/tests/WGraph_DSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex1/tests/WGraph_DSTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +69,7 @@
       <recent name="C:\Users\Dor Yaakobi\IdeaProjects\Ex1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Structure">
+  <component name="RunManager" selected="JUnit.WGraph_DSTest.largeGraph">
     <configuration name="Structure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ex1.Structure" />
       <module name="Ex1" />
@@ -73,37 +79,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WGraph_AlgoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ex1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ex1.tests.WGraph_AlgoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WGraph_AlgoTest.isConnected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Ex1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ex1.tests" />
-      <option name="MAIN_CLASS_NAME" value="ex1.tests.WGraph_AlgoTest" />
-      <option name="METHOD_NAME" value="isConnected" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,28 +99,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WGraph_DSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WGraph_AlgoTest.shortestPathDist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ex1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="ex1.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ex1.tests.WGraph_AlgoTest" />
+      <option name="METHOD_NAME" value="shortestPathDist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WGraph_DSTest.edges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex1.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ex1.tests" />
       <option name="MAIN_CLASS_NAME" value="ex1.tests.WGraph_DSTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="edges" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WGraph_DSTest.largeGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ex1.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ex1.tests" />
+      <option name="MAIN_CLASS_NAME" value="ex1.tests.WGraph_DSTest" />
+      <option name="METHOD_NAME" value="largeGraph" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Structure" />
-        <item itemvalue="JUnit.WGraph_AlgoTest" />
-        <item itemvalue="JUnit.WGraph_AlgoTest.isConnected" />
-        <item itemvalue="JUnit.WGraph_DSTest" />
+        <item itemvalue="JUnit.WGraph_DSTest.largeGraph" />
+        <item itemvalue="JUnit.WGraph_DSTest.edges" />
+        <item itemvalue="JUnit.WGraph_AlgoTest.shortestPathDist" />
         <item itemvalue="JUnit.WGraph_AlgoTest.shortestPath" />
+        <item itemvalue="Application.Structure" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606038121646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated project structure (README file changed to .txt)">
+      <created>1606038227446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606038227446</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Deleted main class">
+      <created>1606038332015</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606038332015</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,7 +224,8 @@
     </ignored-roots>
     <MESSAGE value="Updated project structure" />
     <MESSAGE value="Updated project structure (README file changed to .txt)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated project structure (README file changed to .txt)" />
+    <MESSAGE value="Deleted main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted main class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="70" width="814" height="732" key="#Intentions" timestamp="1605711235019">
@@ -225,30 +248,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605712633060" />
-    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1606038234147">
+    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1606048442627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606038234147" />
+    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606048442627" />
+    <state x="158" y="64" key="DiffContextDialog" timestamp="1606038294307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="158" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1606038294307" />
     <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1605529910501">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605529910501" />
-    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1606038009672">
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1606048442653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606038009672" />
-    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1606038009672">
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606048442653" />
+    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1606048442653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606038009672" />
-    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1606038009671">
+    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606048442653" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1606048442653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606038009671" />
-    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1606038009672">
+    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606048442653" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1606048442653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606038009672" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606048442653" />
     <state width="1493" height="101" key="GridCell.Tab.1.bottom" timestamp="1605718821192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -269,6 +296,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605981234165" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1606038412833">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606038412833" />
     <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605543810155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

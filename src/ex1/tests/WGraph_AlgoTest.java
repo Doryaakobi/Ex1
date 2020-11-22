@@ -45,8 +45,8 @@ public class WGraph_AlgoTest {
             weighted_graph_algorithms ag0 = new WGraph_Algo();
             ag0.init(g0);
             assertTrue(ag0.isConnected());
-            double d = ag0.shortestPathDist(0,10);
-            assertEquals(d, 5.1);
+            double d = ag0.shortestPathDist(9,4);
+            assertEquals(d, 16);
         }
 
         @Test
@@ -54,10 +54,10 @@ public class WGraph_AlgoTest {
             weighted_graph g0 = small_graph();
             weighted_graph_algorithms ag0 = new WGraph_Algo();
             ag0.init(g0);
-            List<node_info> sp = ag0.shortestPath(0,10);
+            List<node_info> sp = ag0.shortestPath(0,8);
 //            System.out.println(sp);
-            //double[] checkTag = {0.0, 1.0, 2.0, 3.1, 5.1};
-            int[] checkKey = {0, 1, 5, 7, 10};
+            //double[] checkTag = {0.0, 1.0, 2.0, 3.1, 5.1, 15.1};
+            int[] checkKey = {0, 1, 5, 7, 10, 8};
             int i = 0;
             for(node_info n: sp) {
                 //assertEquals(n.getTag(), checkTag[i]);
